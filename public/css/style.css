@@ -28,3 +28,139 @@
   .card:hover {
     transform: scale(1.05);
   }
+
+
+  .register-section {
+    background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  .register-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+  .register-card h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  .register-card .form-control {
+    margin-bottom: 1rem;
+  }
+  .register-card .btn-primary {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+    width: 100%;
+  }
+  .register-card .btn-primary:hover {
+    background-color: #ff3b2f;
+    border-color: #ff3b2f;
+  }
+  .register-card .text-muted {
+    color: #666 !important;
+  }
+  .register-card a {
+    color: #ff6f61;
+    text-decoration: none;
+  }
+  .register-card a:hover {
+    text-decoration: underline;
+  }
+
+
+  .animal-detail-section {
+    padding: 4rem 0;
+  }
+  .animal-detail-card {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .animal-detail-card img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  .animal-detail-card .card-body {
+    padding: 2rem;
+  }
+  .btn-primary {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+  }
+  .btn-primary:hover {
+    background-color: #ff3b2f;
+    border-color: #ff3b2f;
+  }
+
+  .animal-section {
+    padding: 4rem 0;
+  }
+  .animal-card {
+    transition: transform 0.3s;
+  }
+  .animal-card:hover {
+    transform: scale(1.05);
+  }
+  .animal-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .btn-primary {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+  }
+  .btn-primary:hover {
+    background-color: #ff3b2f;
+    border-color: #ff3b2f;
+  }
+
+  .login-section {
+    background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  .login-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+  .login-card h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  .login-card .form-control {
+    margin-bottom: 1rem;
+  }
+  .login-card .btn-primary {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+    width: 100%;
+  }
+  .login-card .btn-primary:hover {
+    background-color: #ff3b2f;
+    border-color: #ff3b2f;
+  }
+  .login-card .text-muted {
+    color: #666 !important;
+  }
+  .login-card a {
+    color: #ff6f61;
+    text-decoration: none;
+  }
+  .login-card a:hover {
+    text-decoration: underline;
+  }

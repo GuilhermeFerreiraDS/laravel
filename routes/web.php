@@ -20,5 +20,7 @@ Route::get('/listar', [App\Http\Controllers\ListarAnimais::class, 'listarAnimais
 Route::get('/login', [App\Http\Controllers\Login::class, 'login'])->name('login');
 Route::get('/registro', [App\Http\Controllers\Registro::class, 'registro'])->name('registro');
 
+Route::post('/registro', [App\Http\Controllers\Registro::class, 'criarConta'])->name('registro');
+
 
 
