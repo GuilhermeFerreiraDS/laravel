@@ -15,7 +15,7 @@
             <input type="email" name="email" class="form-control" placeholder="E-mail" required>
           </div>
           <div class="mb-3">
-            <input type="password" nmae="senha" class="form-control" placeholder="Senha" required>
+            <input type="password" name="senha" class="form-control" placeholder="Senha" required>
           </div>
           <div class="mb-3">
             <input type="password" name="confirmar_senha" class="form-control" placeholder="Confirme a Senha" required>
